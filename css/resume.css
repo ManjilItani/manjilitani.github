@@ -149,13 +149,3 @@ a:active {
 }
 
 /* I am adding */
-
-img-project {
-  width: 191px;
-  height: 191px;
-}
-image.fit {
-  display: block;
-  width: 100%;
-  max-width: 700px;
-}

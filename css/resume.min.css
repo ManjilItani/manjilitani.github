@@ -106,7 +106,7 @@ section.resume-section .resume-item .resume-date {
 }
 @media (min-width: 768px) {
   section.resume-section {
-    min-height: 100vh;
+    min-height: 80vh;
   }
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
@@ -131,4 +131,38 @@ a:active,
 a:focus,
 a:hover {
   color: #824027;
+}
+
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.item {
+  width: 32%;
+  padding-bottom: 32%; 
+  margin-bottom: 2%;
+  position: relative;
+} */
+/* 
+img-project {
+  width: 191px;
+  height: 191px;
+} */
+image.fit {
+  display: block;
+  width: 100%;
+  max-width: 700px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.shadow {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 15px #6042a7;
 }
